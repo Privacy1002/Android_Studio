@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyApp1</string>
+
+
+    // PANTALLA 1 DE LOGIN //
+
+    <string name="login">INICIAR SESION</string>
+    <string name="edt_email">INGRESE SU CORREO</string>
+    <string name="edt_pass">INGRESE SU CONTRASEÑA</string>
+    <string name="btn_login">INGRESAR</string>
+    <string name="btn_google">INGRESAR CON GMAIL</string>
+    <string name="btn_cuenta">CREAR CUENTA</string>
+
+    // PANTALLA 2 CREAR CUENTA //
+
+    <string name="txt_crear">CREAR CUENTA</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_ape">Apellido</string>
+    <string name="txt_correo">Ingrese Correo</string>
+    <string name="txt_phone">Telefono</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_passr">Repita la contraseña</string>
+
+    // PANTALLA 3 RECUPERAR CONTRASEÑA //
+
+    <string name="txt_recuperar">RECUPERAR CONTRASEÑA</string>
+    <string name="btn_recupass">RECUPERAR CONTRASEÑA</string>
+
+</resources>
