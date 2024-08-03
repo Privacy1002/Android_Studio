@@ -72,7 +72,7 @@
             android:textColorLink="@color/sena" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_crear_cuenta"
             android:layout_width="170sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -82,7 +82,7 @@
             android:textColorLink="@color/sena" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_recuperar_contraseña"
             android:layout_width="170sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

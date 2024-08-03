@@ -1,6 +1,8 @@
 package com.sena.myapp1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+            val btn_cuenta: Button = findViewById(R.id.btn_crear_cuenta)
+            btn_cuenta.setOnClickListener {
+                val intent: Intent = Intent (this, crear_cuenta::class.java)
+                startActivity(intent)
+            }
+            val btn_recuperar: Button = findViewById(R.id.btn_recuperar_contraseña)
+            btn_recuperar.setOnClickListener {
+                val intent: Intent = Intent (this, recuperar_cuenta::class.java)
+                startActivity(intent)
+             }
+        }
     }
-}
